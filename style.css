@@ -1,0 +1,36 @@
+/* tab style */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* tab style */
+.tab button{
+    background-color: #f1f1f1;
+    float: left;
+    border: 1px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* hover color */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* active tablink class */
+.tab button:active {
+    background-color: #ccc;
+}
+
+/* tab content style */
+.tabcontent
+{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
